@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Treats Ice Cream Shop</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9c1ff;
+        color: #333;
+    }
+    header {
+        background-color: #ff85a2;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 24px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .product {
+        background-color: #fff3cd;
+        border: 1px solid #ddd;
+        margin: 10px;
+        padding: 10px;
+        width: 30%;
+        text-align: center;
+    }
+    .product img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+    footer {
+        background-color: #ff85a2;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    @media (max-width: 600px) {
+        .product {
+            width: 90%;
+        }
+        nav a {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+<body>
+<header>Sweet Treats Ice Cream Shop</header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#flavors">Flavors</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
+</nav>
+<div id="home" class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150.png?text=Vanilla" alt="Vanilla Ice Cream">
+        <h3>Vanilla Dream</h3>
+        <p>Classic smooth vanilla ice cream</p>
+        <p>$3.50</p>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150.png?text=Chocolate" alt="Chocolate Ice Cream">
+        <h3>Chocolate Heaven</h3>
+        <p>Rich and creamy chocolate flavor</p>
+        <p>$4.00</p>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150.png?text=Strawberry" alt="Strawberry Ice Cream">
+        <h3>Strawberry Fields</h3>
+        <p>Fresh strawberry bits and ice cream</p>
+        <p>$4.25</p>
+    </div>
+</div>
+<footer>&copy; 2024 Sweet Treats Ice Cream Shop</footer>
+</body>
+</html>
